@@ -1,0 +1,34 @@
+*{
+    box-sizing:border-box;
+}
+
+body {
+    margin:0 auto;
+    /* margin-left: 30%; */
+    padding: 20px;
+    
+}
+
+div {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    align-items: baseline;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#add-todo {
+    margin-left: 20px;
+    background-color: rgb(79, 174, 238);
+    border-radius: 4px;
+    color: snow;
+    font-size: 15px; ;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+
+#input {
+margin-left: 30px;
+}
